@@ -1,0 +1,36 @@
+//El usuario solo puede insertar string de caracteres romanos
+// El programa solo correrá hasta el 3999
+
+importar regular expression 
+
+string romanos = insertar un numero romanos
+
+boolean validar = true
+
+//Los números romanos I, X y C se pueden repetir hasta 3 veces seguidas para formar los números, pero la repetición de V, L o D no es válida.
+
+//Para formar números, se puede colocar un dígito de menor valor antes o después del dígito de mayor valor y los dígitos de menor valor que se pueden usar para esto son I, X y C.
+
+//Debe sumar todos los dígitos de un grupo cuando se coloca un dígito de valor más bajo después o a la derecha de un dígito de valor más alto. También se suman los dígitos de valores similares colocados juntos.
+
+//Reste el valor del dígito más bajo del valor del valor más alto cuando se coloca un dígito de valor más bajo a la izquierda o antes de un dígito de valor más alto. Tenga en cuenta que V nunca se escribe a la izquierda de X.
+
+
+pattern =
+
+r^"(lo que inserte el usuario debe de ser un numero romano (MDCLXVI))
+(La M(miles) solo debe de estar repitiendose hasta 3 veces)
+(La C(cien) debe de colocarse antes de la M(miles) y antes de la o C a la derecha de la D(quinientos) o C se puede repetir hasta 3 veces)
+(La X(diez) debe de colocarse antes de la L(cincuenta) y antes de la C(cien) o X estar a la derecha la L(cincuenta) o la X se puede repetir hasta 3 veces)
+(La I(uno) debe de colocar antes de X(diez) y antes de V(cinco) o I puede estar a la derecha de el V(cinco) o la I se puede repetir hasta 3 veces)
+$)"
+
+if romanos cumple con pattern
+{
+	print validar
+}
+else
+{
+	validar = false
+	print validar
+}
