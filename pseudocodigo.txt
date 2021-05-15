@@ -19,10 +19,10 @@ boolean validar = true
 pattern =
 
 r^"(lo que inserte el usuario debe de ser un numero romano (MDCLXVI))
-(La M(miles) solo debe de estar repitiendose hasta 3 veces)
-(La C(cien) debe de colocarse antes de la M(miles) y antes de la o C a la derecha de la D(quinientos) o C se puede repetir hasta 3 veces)
-(La X(diez) debe de colocarse antes de la L(cincuenta) y antes de la C(cien) o X estar a la derecha la L(cincuenta) o la X se puede repetir hasta 3 veces)
-(La I(uno) debe de colocar antes de X(diez) y antes de V(cinco) o I puede estar a la derecha de el V(cinco) o la I se puede repetir hasta 3 veces)
+(La M(miles) solo debe de estar repitiendose hasta 3 veces seguidas)
+(La C(cien) debe de colocarse antes de la M(miles) y antes de la D o C a la derecha de la D(quinientos) o C a la derecha de M o C se puede repetir hasta 3 veces seguidas)
+(La X(diez) debe de colocarse antes de la L(cincuenta) y antes de la C(cien) o X estar a la derecha la L(cincuenta) o X estar a la derecha de el C o la X se puede repetir hasta 3 veces seguidas)
+(La I(uno) debe de colocar antes de X(diez) y antes de V(cinco) o I puede estar a la derecha de el V(cinco) o la I se puede repetir hasta 3 veces seguidas)
 $)"
 
 if romanos cumple con pattern
