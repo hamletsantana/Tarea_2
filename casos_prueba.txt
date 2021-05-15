@@ -1,0 +1,36 @@
+Casos de Prueba
+
+//Caso 1:
+
+input: MMMM
+output: Falso
+
+//Caso 2: 
+
+input: XVIIII
+output: Falso
+
+//Caso 3:
+
+input: MMMCMXCIX
+output: True
+
+//Caso 4:
+
+input: VV
+output: Falso
+
+//Caso 5:
+
+input: XVX
+output: Falso
+
+//Caso 6:
+
+input: XVII
+output: True 
+
+//Caso 7: 
+
+input: IIII
+output: Falso
